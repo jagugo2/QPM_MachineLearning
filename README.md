@@ -1,7 +1,7 @@
 # QPM_MachineLearning
 QPM_MachineLearning
 
-This code is intended to be used by participants in the class Quantitative Portfolio Management (2018).
+This code is intended to be used by participants in the class Quantitative Portfolio Management (2019).
 It is based on
 
 Lopez de Prado, M. (2018). Advances in Financial Machine Learning. Hoboken: Wiley.
