@@ -72,11 +72,6 @@ plotCorrMatrix(general_path+"/SMI_5.png",plotdata_pivoted, labels = plotdata_piv
 
 
 #Code to replicate the plots of the trading rules according to the book of Lopez
-trading_rule_results = pd.DataFrame(main(expected = stock_data, sigma = stock_vola, half_time = [5]))
-plotdata = trading_rule_results[[0,1,4]]
-plotdata_pivoted = plotdata.pivot(index = 1, columns = 0, values = 4)
-plotCorrMatrix(general_path+"/Testplot.png",plotdata_pivoted, labels = plotdata_pivoted.columns)
-
 
 #Expected Value 0, Half-life 5
 trading_rule_results = pd.DataFrame(main(expected = [0], sigma = 1, half_time = [5]))
